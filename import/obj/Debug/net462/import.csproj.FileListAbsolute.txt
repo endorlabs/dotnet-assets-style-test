@@ -1,0 +1,9 @@
+/Users/anand/spikes/csharp/core/netcorespike/import/bin/Debug/net462/import.dll
+/Users/anand/spikes/csharp/core/netcorespike/import/bin/Debug/net462/import.pdb
+/Users/anand/spikes/csharp/core/netcorespike/import/obj/Debug/net462/import.GeneratedMSBuildEditorConfig.editorconfig
+/Users/anand/spikes/csharp/core/netcorespike/import/obj/Debug/net462/import.AssemblyInfoInputs.cache
+/Users/anand/spikes/csharp/core/netcorespike/import/obj/Debug/net462/import.AssemblyInfo.cs
+/Users/anand/spikes/csharp/core/netcorespike/import/obj/Debug/net462/import.csproj.CoreCompileInputs.cache
+/Users/anand/spikes/csharp/core/netcorespike/import/obj/Debug/net462/import.dll
+/Users/anand/spikes/csharp/core/netcorespike/import/obj/Debug/net462/import.pdb
+/Users/anand/spikes/csharp/core/netcorespike/import/obj/Debug/net462/import.csproj.AssemblyReference.cache

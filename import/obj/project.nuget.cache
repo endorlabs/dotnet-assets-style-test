@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "SzJnnA3tFzPbjnWUnVe/mz0oXqwPUVdH9B4ERI4/l2LCCbgfWEFrJRHaiVdqHkOthbuLoidb+cidtA179hPcGg==",
+  "success": true,
+  "projectFilePath": "/Users/anand/spikes/csharp/core/netcorespike/import/import.csproj",
+  "expectedPackageFiles": [
+    "/Users/anand/.nuget/packages/google.protobuf/3.0.0/google.protobuf.3.0.0.nupkg.sha512",
+    "/Users/anand/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.3/microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "/Users/anand/.nuget/packages/microsoft.netframework.referenceassemblies.net48/1.0.3/microsoft.netframework.referenceassemblies.net48.1.0.3.nupkg.sha512",
+    "/Users/anand/.nuget/packages/system.text.json/1.0.0/system.text.json.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

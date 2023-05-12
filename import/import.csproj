@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFrameworks>net48</TargetFrameworks>
+    </PropertyGroup>
+
+    <Import Project="../ref/ref.csproj" />
+
+    <ItemGroup>
+        <PackageReference Include="Google.Protobuf" Version="3.0.0" />
+    </ItemGroup>
+
+</Project>

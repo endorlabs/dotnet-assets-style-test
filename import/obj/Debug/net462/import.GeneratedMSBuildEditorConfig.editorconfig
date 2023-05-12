@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = import
+build_property.ProjectDir = /Users/anand/spikes/csharp/core/netcorespike/import/
