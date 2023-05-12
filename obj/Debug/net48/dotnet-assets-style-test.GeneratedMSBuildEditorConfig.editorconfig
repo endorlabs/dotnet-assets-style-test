@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = dotnet-assets-style-test
+build_property.ProjectDir = /Users/anand/endordev/nuget/integration-tests/dotnet-assets-style-test/

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/anand/endordev/nuget/integration-tests/dotnet-assets-style-test/import/import.csproj": {}
+    "/Users/anand/endordev/nuget/integration-tests/dotnet-assets-style-test/ref/ref.csproj": {}
   },
   "projects": {
-    "/Users/anand/endordev/nuget/integration-tests/dotnet-assets-style-test/import/import.csproj": {
+    "/Users/anand/endordev/nuget/integration-tests/dotnet-assets-style-test/ref/ref.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/anand/endordev/nuget/integration-tests/dotnet-assets-style-test/import/import.csproj",
-        "projectName": "import",
-        "projectPath": "/Users/anand/endordev/nuget/integration-tests/dotnet-assets-style-test/import/import.csproj",
+        "projectUniqueName": "/Users/anand/endordev/nuget/integration-tests/dotnet-assets-style-test/ref/ref.csproj",
+        "projectName": "ref",
+        "projectPath": "/Users/anand/endordev/nuget/integration-tests/dotnet-assets-style-test/ref/ref.csproj",
         "packagesPath": "/Users/anand/.nuget/packages/",
-        "outputPath": "/Users/anand/endordev/nuget/integration-tests/dotnet-assets-style-test/import/obj/",
+        "outputPath": "/Users/anand/endordev/nuget/integration-tests/dotnet-assets-style-test/ref/obj/",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
@@ -39,10 +39,6 @@
         "net48": {
           "targetAlias": "net48",
           "dependencies": {
-            "Google.Protobuf": {
-              "target": "Package",
-              "version": "[3.0.0, )"
-            },
             "Microsoft.NETFramework.ReferenceAssemblies": {
               "suppressParent": "All",
               "target": "Package",
