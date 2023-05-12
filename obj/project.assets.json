@@ -530,11 +530,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/anand/spikes/csharp/core/netcorespike/netcoreclidep.csproj",
-      "projectName": "netcoreclidep",
-      "projectPath": "/Users/anand/spikes/csharp/core/netcorespike/netcoreclidep.csproj",
+      "projectUniqueName": "/Users/anand/endordev/nuget/integration-tests/dotnet-assets-style-test/dotnet-assets-style-test.csproj",
+      "projectName": "dotnet-assets-style-test",
+      "projectPath": "/Users/anand/endordev/nuget/integration-tests/dotnet-assets-style-test/dotnet-assets-style-test.csproj",
       "packagesPath": "/Users/anand/.nuget/packages/",
-      "outputPath": "/Users/anand/spikes/csharp/core/netcorespike/obj/",
+      "outputPath": "/Users/anand/endordev/nuget/integration-tests/dotnet-assets-style-test/obj/",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [
@@ -550,8 +550,8 @@
         "net48": {
           "targetAlias": "net48",
           "projectReferences": {
-            "/Users/anand/spikes/csharp/core/netcorespike/import/import.csproj": {
-              "projectPath": "/Users/anand/spikes/csharp/core/netcorespike/import/import.csproj"
+            "/Users/anand/endordev/nuget/integration-tests/dotnet-assets-style-test/import/import.csproj": {
+              "projectPath": "/Users/anand/endordev/nuget/integration-tests/dotnet-assets-style-test/import/import.csproj"
             }
           }
         }
