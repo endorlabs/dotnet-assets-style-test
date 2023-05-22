@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFrameworks>net48</TargetFrameworks>
+        <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+    </PropertyGroup>
+
+    <ItemGroup Condition=" '$(TargetFramework)' == 'net48' ">
+        <PackageReference Include="Newtonsoft.Json" Version="10.0.1" />
+        <ProjectReference Include="../import/import.csproj" />
+    </ItemGroup>
+
+</Project>
