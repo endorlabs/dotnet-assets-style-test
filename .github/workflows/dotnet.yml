@@ -22,3 +22,11 @@ jobs:
         dotnet-version: 6.0.x
     - name: Restore dependencies
       run: dotnet restore
+    - name: Upload SARIF file
+      uses: github/codeql-action/upload-sarif@v1
+      with:
+        # Path to SARIF file relative to the root of the repository
+        sarif_file: endorctl.sarif
+        # Optional category for the results
+        # Used to differentiate multiple results for one commit
+        category: endorctl
