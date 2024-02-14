@@ -1,0 +1,203 @@
+{
+  "$schema": "https://docs.oasis-open.org/sarif/sarif/v2.1.0/os/schemas/sarif-schema-2.1.0.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "import/import.csproj"
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "import/obj/project.assets.json"
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Google.Protobuf@3.0.0 has a high severity vulnerability identified by GHSA-jwvw-v7c5-m82h: protobuf susceptible to buffer overflow. This vulnerability was fixed in version 3.4.0.\nGoogle.Protobuf@3.0.0 is a direct dependency of import@1.0.0."
+          },
+          "ruleId": "GHSA-jwvw-v7c5-m82h: protobuf susceptible to buffer overflow"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "import/import.csproj"
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "import/obj/project.assets.json"
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Google.Protobuf@3.0.0 has a medium severity vulnerability identified by GHSA-77rm-9x9h-xj3g: NULL Pointer Dereference in Protocol Buffers. This vulnerability was fixed in version 3.15.0.\nGoogle.Protobuf@3.0.0 is a direct dependency of import@1.0.0."
+          },
+          "ruleId": "GHSA-77rm-9x9h-xj3g: NULL Pointer Dereference in Protocol Buffers"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "dotnet-assets-style-test.csproj"
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "obj/project.assets.json"
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Google.Protobuf@3.0.0 has a high severity vulnerability identified by GHSA-jwvw-v7c5-m82h: protobuf susceptible to buffer overflow. This vulnerability was fixed in version 3.4.0.\nGoogle.Protobuf@3.0.0 is a transitive dependency of dotnet-assets-style-test@1.0.0 via import@1.0.0 (https://github.com/endorlabs/dotnet-assets-style-test.git)."
+          },
+          "ruleId": "GHSA-jwvw-v7c5-m82h: protobuf susceptible to buffer overflow"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "dotnet-assets-style-test.csproj"
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "obj/project.assets.json"
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Newtonsoft.Json@10.0.1 has a high severity vulnerability identified by GHSA-5crp-9r3c-p9vr: Improper Handling of Exceptional Conditions in Newtonsoft.Json. This vulnerability was fixed in version 13.0.1.\nNewtonsoft.Json@10.0.1 is a direct dependency of dotnet-assets-style-test@1.0.0."
+          },
+          "ruleId": "GHSA-5crp-9r3c-p9vr: Improper Handling of Exceptional Conditions in Newtonsoft.Json"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "dotnet-assets-style-test.csproj"
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "obj/project.assets.json"
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Google.Protobuf@3.0.0 has a medium severity vulnerability identified by GHSA-77rm-9x9h-xj3g: NULL Pointer Dereference in Protocol Buffers. This vulnerability was fixed in version 3.15.0.\nGoogle.Protobuf@3.0.0 is a transitive dependency of dotnet-assets-style-test@1.0.0 via import@1.0.0 (https://github.com/endorlabs/dotnet-assets-style-test.git)."
+          },
+          "ruleId": "GHSA-77rm-9x9h-xj3g: NULL Pointer Dereference in Protocol Buffers"
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "endorctl",
+          "rules": [
+            {
+              "fullDescription": {
+                "text": "This package version contains a vulnerability that has been marked as high severity according to the information in OSV.dev."
+              },
+              "help": {
+                "text": "Update import@1.0.0 to use Google.Protobuf version 3.4.0 (current: 3.0.0, latest: 4.0.0-rc2)."
+              },
+              "id": "GHSA-jwvw-v7c5-m82h: protobuf susceptible to buffer overflow",
+              "name": "GHSA-jwvw-v7c5-m82h: protobuf susceptible to buffer overflow",
+              "properties": {
+                "security-severity": "8.800000190734863E+00",
+                "tags": [
+                  "DIRECT",
+                  "PROJECT_INTERNAL",
+                  "NAMESPACE_INTERNAL",
+                  "POTENTIALLY_REACHABLE_FUNCTION",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY",
+                  "NORMAL",
+                  "FIX_AVAILABLE"
+                ]
+              },
+              "shortDescription": {
+                "text": "GHSA-jwvw-v7c5-m82h: protobuf susceptible to buffer overflow"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "This package version contains a vulnerability that has been marked as medium severity according to the information in OSV.dev."
+              },
+              "help": {
+                "text": "Update import@1.0.0 to use Google.Protobuf version 3.15.0 (current: 3.0.0, latest: 4.0.0-rc2)."
+              },
+              "id": "GHSA-77rm-9x9h-xj3g: NULL Pointer Dereference in Protocol Buffers",
+              "name": "GHSA-77rm-9x9h-xj3g: NULL Pointer Dereference in Protocol Buffers",
+              "properties": {
+                "security-severity": "5.5E+00",
+                "tags": [
+                  "DIRECT",
+                  "PROJECT_INTERNAL",
+                  "NAMESPACE_INTERNAL",
+                  "POTENTIALLY_REACHABLE_FUNCTION",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY",
+                  "NORMAL",
+                  "FIX_AVAILABLE"
+                ]
+              },
+              "shortDescription": {
+                "text": "GHSA-77rm-9x9h-xj3g: NULL Pointer Dereference in Protocol Buffers"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "This package version contains a vulnerability that has been marked as high severity according to the information in OSV.dev."
+              },
+              "help": {
+                "text": "Update dotnet-assets-style-test@1.0.0 to use Newtonsoft.Json version 13.0.1 (current: 10.0.1, latest: 13.0.3)."
+              },
+              "id": "GHSA-5crp-9r3c-p9vr: Improper Handling of Exceptional Conditions in Newtonsoft.Json",
+              "name": "GHSA-5crp-9r3c-p9vr: Improper Handling of Exceptional Conditions in Newtonsoft.Json",
+              "properties": {
+                "security-severity": "7.5E+00",
+                "tags": [
+                  "DIRECT",
+                  "PROJECT_INTERNAL",
+                  "NAMESPACE_INTERNAL",
+                  "POTENTIALLY_REACHABLE_FUNCTION",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY",
+                  "NORMAL",
+                  "FIX_AVAILABLE"
+                ]
+              },
+              "shortDescription": {
+                "text": "GHSA-5crp-9r3c-p9vr: Improper Handling of Exceptional Conditions in Newtonsoft.Json"
+              }
+            }
+          ],
+          "semanticVersion": "v1.6.162"
+        }
+      }
+    }
+  ],
+  "version": "2.1.0"
+}
